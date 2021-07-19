@@ -1,0 +1,15 @@
+.comics {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.comics h2 {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.comics h2:first-child {
+  padding-top: 60px;
+}

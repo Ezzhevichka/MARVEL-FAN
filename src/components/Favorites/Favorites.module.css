@@ -1,0 +1,32 @@
+.favorites {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 89.4vh;
+}
+
+.favorites h2:first-child {
+  padding-top: 60px;
+}
+
+.favorites .characters {
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 15px;
+}
+
+.favorites .comics {
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+

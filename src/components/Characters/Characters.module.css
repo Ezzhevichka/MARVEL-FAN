@@ -1,0 +1,9 @@
+.characters {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 10px;
+  min-height: 62.1vh;
+}

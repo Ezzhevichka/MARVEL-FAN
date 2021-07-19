@@ -1,0 +1,46 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  grid-gap: 15px;
+  gap: 15px;
+  margin-top: 12px;
+  padding: 30px;
+  background-color: rgb(185, 24, 24);
+  position: relative;
+  bottom: 0;
+}
+
+.page, .currentPage {
+  box-sizing: border-box;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  width: 36px;
+  border: 2px solid #000000;
+  border-radius: 50%;
+  color: #000000;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  transition: all 0.5s;
+}
+
+.page:hover, .currentPage:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.currentPage {
+  background-color: #000;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .page, .currentPage {
+    height: 28px;
+    width: 28px;
+    border: 2px solid #000000;
+  }
+}
